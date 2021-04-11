@@ -1,0 +1,53 @@
+@font-face{
+    font-family: 'Amiri';
+    src: url("../fonts/Amiri-Regular.ttf")
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Amiri';
+    text-align: right;
+}
+#nav{
+     background-color: coral;
+     text-align: left;
+}
+#logo{
+    width: 120px;
+    height: 115px;
+    display: inline-block;
+}
+#g1,#g2{
+    display: inline-block;
+}
+#adderss{
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -45px;
+}
+hr{
+    border: black solid 1px;
+}
+.question{
+    color: blue;
+}
+.answer{
+    color: red;
+}
+#about{
+    background-color: grey;
+    width: 100%;
+    text-align: left;
+}
+#txt1{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+}
+#txt2{
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+}
