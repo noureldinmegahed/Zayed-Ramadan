@@ -51,3 +51,18 @@ hr{
     font-weight: bold;
     color: white;
 }
+@media (prefers-color-scheme: dark) {
+    body, html { 
+        background-color:#121212;
+        color: white;
+    }
+    .question{
+        color: #63d4ff;
+    }
+    .answer {
+        color: #ff6161;
+    }
+    hr {
+        border: white solid 1px;
+    }    
+}
